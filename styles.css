@@ -1,0 +1,94 @@
+body, h1, h2, button {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.logo-arrow {
+    color: white;
+}
+
+.logo-text {
+    font-size: 24px;
+}
+
+#login-button {
+    background-color: #555;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+main {
+    background-color: #f4f4f4;
+    padding: 20px;
+    min-height: calc(100vh - 50px);
+}
+
+.note-column {
+    float: left;
+    width: 33.333%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.note-column h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#new-note-button {
+    clear: both;
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.note {
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.note.open {
+    border-left: 5px solid grey;
+}
+
+.note.in-progress {
+    border-left: 5px solid red;
+}
+
+.note.done {
+    border-left: 5px solid green;
+}

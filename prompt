@@ -1,0 +1,14 @@
+Create a Notion web application fully functional with modern design using only HTML, CSS and Javascript.
+This web application only need to work locally, so you don't setup any fancy back-end.
+The Logo of this web application is just a white arrow in a black circle or you can make it with a simple letter N.
+The header of this web application has login button but it don't have to be functional.
+There are 3 types of status for each note. Which are "Open" in color grey, "In Progress" in color red and "Done" in the color green.
+Each note has 3 properties name, description, and status.
+You can change property of each note by clicking on it, the web application will show you detail of that note.
+You can also change the status of each note.
+You have to have a button to create new note.
+Well I think the main content of the page should have some background color.
+And I think you should arrange note according to their status, like "Done" goes to "Done" column, "Open" go to "Open" column.
+Make it so you can dinamically edit each note showing in the web, don't use the default input prompt of the browser.
+Give each note an option to change it's status, title, description and delete that note.
+You have the option to change note's name, description too.

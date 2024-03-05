@@ -1,0 +1,14 @@
+{
+  "name": "notion-clone",
+  "version": "1.0.0",
+  "description": "A local Notion-like web application",
+  "main": "index.html",
+  "scripts": {
+    "start": "serve"
+  },
+  "dependencies": {
+    "serve": "^13.0.2"
+  },
+  "author": "",
+  "license": "ISC"
+}
